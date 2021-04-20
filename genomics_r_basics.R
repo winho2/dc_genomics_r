@@ -111,3 +111,24 @@ readr
 renv::install("readr")
 dataset()
 my_dataset
+?readr
+readr::read_csv()
+# read in a CSV file and save it as 'variants'
+?library
+library()
+library(readr)
+getwd(file="data-raw/combined_tidy_vcf.csv.csv")
+variants <- 1
+rm(variants)
+variants <- readr::read_csv(file="data-raw/combined_tidy_vcf.csv.csv")
+nrow(variants)
+ncol(variants)
+variants
+?renv
+??renv
+summary(variants)
+summary(Indometh)
+df <- Indometh
+rm(my_dataset)
+str(variants)
+readr::read_csv(file="data-raw/combined_tidy_vcf.csv.csv")
